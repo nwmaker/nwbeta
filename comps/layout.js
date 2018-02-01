@@ -13,12 +13,11 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
       <nav>
         <style jsx>{`
           .active:after {
-            color: #ff0102;
+            color: #f00102;
           }
           .active {
-            color: #ff0102;
+            color: #f01122;
             text-decoration: none;
-            text-decoration-color: #ff0102;
           }
           .nav-link {
             text-decoration: none;
