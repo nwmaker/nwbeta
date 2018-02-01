@@ -1,8 +1,9 @@
 import Layout from '../comps/layout'
+//import Nav from '../comps/Nav'
 
 export default () => (
   <Layout>
-    <div>Hello</div>
+    <p>Hello home</p>
   </Layout>
 )
 

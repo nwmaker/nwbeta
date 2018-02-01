@@ -1,4 +1,5 @@
-import Link from 'next/link'
+//import Link from 'next/link'
+import Link from './Link'
 import Head from 'next/head'
 
 export default ({ children, title = 'NWMaker Ltd.' }) => (
@@ -10,10 +11,29 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
     </Head>
     <header>
       <nav>
-        <Link href='/'><a>Home</a></Link> {' | '}
-        <Link href='/products'><a>Products</a></Link> {' | '}
-        <Link href='/blog'><a>Blog</a></Link> {' | '}
-        <Link href='/club'><a>Club</a></Link>
+        <style jsx>{`
+          .active:after {
+            color: #ff0102;
+          }
+          .active {
+            color: #ff0102;
+            text-decoration: none;
+            text-decoration-color: #ff0102;
+          }
+          .nav-link {
+            text-decoration: none;
+            padding: 10px;
+            color: #888;
+          }
+        `}</style>
+        <Link className='nav-link' activeClassName='active' href='/'>
+          <a className='home-link'>Home</a></Link> {' | '}
+        <Link activeClassName='active' href='/products'>
+          <a>Products</a></Link> {' | '}
+        <Link activeClassName='active' href='/blog'>
+          <a>Blog</a></Link> {' | '}
+        <Link activeClassName='active' href='/club'>
+          <a>Club</a></Link>
       </nav>
     </header>
 
