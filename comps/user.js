@@ -8,8 +8,6 @@ const user = {
   lastName: "Perez",
 };
 
-const UserName = (
-  <h1>Hello, {formatName(user)}!</h1>
-)
+const User = () => <h1>Hello, {formatName(user)}!</h1>
 
-export default UserName
+export default User
