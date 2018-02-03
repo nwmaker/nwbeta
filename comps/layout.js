@@ -39,7 +39,16 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
     { children }
 
     <footer>
+      <div className='footer'>
       {'NWMaker Ltd. 2018'}
+      <style jsx>{`
+        .footer {
+          display: flex;
+          align-item: center;
+          justify-content: center;
+        }
+      `}</style>
+      </div>
     </footer>
   </div>
 )

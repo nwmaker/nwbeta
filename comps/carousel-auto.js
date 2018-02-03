@@ -167,8 +167,8 @@ class AutoCarousel extends React.Component {
     return (
       <div className='app-container'>
         <div className='app-header'>
-          <h1>React Simple Carousel</h1> 
-          <p>A simple carousel component using react.</p>
+          <h1>Electronics Crafts</h1>
+          <p>Unique. Distinctive. Beautiful.</p>
         </div>
         <div className='app-content'>
           <Carousel images={carouselImages} />
