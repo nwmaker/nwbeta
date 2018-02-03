@@ -11,6 +11,9 @@ import Slideshow from '../comps/slideshow'
 import Imageslide from '../comps/imageslide'
 import Hello from '../comps/hello'
 
+import Carousel from '../comps/carousel-man/carousel'
+import AutoCarousel from '../comps/carousel-auto'
+
 const pics = [
   'https://cdn.pixabay.com/photo/2017/06/19/07/12/water-lily-2418339__480.jpg',
   'https://cdn.pixabay.com/photo/2017/07/18/18/24/dove-2516641__480.jpg',
@@ -28,6 +31,8 @@ const images = [
 export default () => (
   <Layout>
     <Counter />
+    <AutoCarousel />
+    <Carousel images={images} />
     <Hello />
     <style jsx>{`
       body {
