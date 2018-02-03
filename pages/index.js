@@ -9,6 +9,7 @@ import Counter from '../comps/counter'
 
 import Slideshow from '../comps/slideshow'
 import Imageslide from '../comps/imageslide'
+import Hello from '../comps/hello'
 
 const pics = [
   'https://cdn.pixabay.com/photo/2017/06/19/07/12/water-lily-2418339__480.jpg',
@@ -27,25 +28,103 @@ const images = [
 export default () => (
   <Layout>
     <Counter />
+    <Hello />
     <style jsx>{`
-      .slide-container
-        display: block;
-      }
-      img {
-        -webkit-transition: -webkit-transform 0.4s; /* Safari */
-        transition: transform 0.4s;
-      }
-      img:hover {
-        -webkit-transform: scale(1.02); /* Safari */
-        transform: scale(1.02);
-      }
+      body {
+  font-family: 'Noto Sans', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.Carousel {
+  height: 22rem;
+  overflow: hidden;
+}
+
+.Carousel-TitleDesc {
+  height: 20rem;
+  color: rgba(255, 255, 255, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  top: -21.3rem;
+  margin-bottom: -20rem;
+}
+.Carousel-TitleDesc h2, .Carousel-TitleDesc p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0 0.3rem 0 0;
+}
+.Carousel-TitleDesc h2 {
+  margin-bottom: -1rem;
+}
+.Carousel-TitleDesc p {
+  padding-bottom: 1rem;
+}
+
+.Carousel-selector {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.5em;
+  width: 1em;
+  height: 1em;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.Carousel-Selector-Selected {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Carousel-Slide {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.Carousel-Slide img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Carousel-Slide-Selected {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Carousel-Items {
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
       .pic {
         display: inline-block;
         width: 100px;
         height: 100px;
         position: absolute;
       }
-      .pic {
+
+      .pic img {
         width: 100px;
         height: 100px;
       }
@@ -54,7 +133,7 @@ export default () => (
         left: 100px;
       }
 
-      .current.move {
+      .current .move {
         left: 0;
         transition: all .5s ease;
       }
@@ -63,7 +142,7 @@ export default () => (
         left: 200px;
       }
 
-      .next.move {
+      .next .move {
         left: 100px;
         transition: all .5s ease;
       }
@@ -82,7 +161,7 @@ export default () => (
         position: absolute;
       }
     `}</style>
-    <Imageslide pics={images} />
+    <Slideshow pics={images} />
     <p>Hello home</p>
     <User />
     <Clock />
