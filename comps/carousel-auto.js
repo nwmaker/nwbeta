@@ -186,6 +186,7 @@ class AutoCarousel extends React.Component {
             line-height: 18px;
           }
           .app-header p {
+            color: #ff0102;
             line-height: 16px;
           }
           .app-content {
@@ -193,7 +194,6 @@ class AutoCarousel extends React.Component {
             height: 360px;
             background-color: gray;
             margin: 0 auto;
-            padding-bottom: 10px;
           }
         `}</style>
       </div>

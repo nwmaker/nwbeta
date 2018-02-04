@@ -1,6 +1,5 @@
-import Layout from '../comps/layout'
-//import Show from '../comps/photo-carousel/show'
-import Slideshow from '../comps/slideshow'
+import React from 'react';
+import Carousel from './carousel';
 
 const pics = [
   'https://cdn.pixabay.com/photo/2017/06/19/07/12/water-lily-2418339__480.jpg',
@@ -10,8 +9,6 @@ const pics = [
 ];
 
 export default () => (
-  <Layout>
-    <h1>NWMaker Porducts List</h1>
-    <Slideshow pics={pics} />
-  </Layout>
+  <Carousel pics={pics} />
 )
+

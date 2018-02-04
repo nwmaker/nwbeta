@@ -24,6 +24,9 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
             padding: 10px;
             color: #888;
           }
+          a {
+            color: black;
+          }
         `}</style>
         <Link className='nav-link' activeClassName='active' href='/'>
           <a className='home-link'>Home</a></Link> {' | '}
@@ -47,6 +50,7 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           align-item: center;
           justify-content: center;
           line-height: 16px;
+          padding: 25px;
           text-align: center;
         }
       `}</style>
