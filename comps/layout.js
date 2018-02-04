@@ -46,6 +46,8 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           display: flex;
           align-item: center;
           justify-content: center;
+          line-height: 16px;
+          text-align: center;
         }
       `}</style>
       </div>

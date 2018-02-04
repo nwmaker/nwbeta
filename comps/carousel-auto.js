@@ -193,6 +193,7 @@ class AutoCarousel extends React.Component {
             height: 360px;
             background-color: gray;
             margin: 0 auto;
+            padding-bottom: 10px;
           }
         `}</style>
       </div>
