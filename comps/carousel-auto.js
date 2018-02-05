@@ -155,11 +155,21 @@ class CarouselItem extends React.Component {
 /*
  * Root Application
  */
+/*
 const carouselImages = [
   'http://lorempixel.com/800/360/food/',
   'http://lorempixel.com/800/360/sports/',
   'http://lorempixel.com/800/360/city/',
   'http://lorempixel.com/800/360/nature/'
+]
+*/
+
+const carouselImages = [
+  '/static/monarch_2flying_b.png',
+  '/static/binary_b2.png',
+  '/static/smd_2_c.png',
+  '/static/ursaminor_2.png',
+  '/static/snowflake_whiteall.png'
 ]
 
 class AutoCarousel extends React.Component {
@@ -192,6 +202,7 @@ class AutoCarousel extends React.Component {
           .app-content {
             width: 800px;
             height: 360px;
+            position: relative;
             background-color: gray;
             margin: 0 auto;
           }

@@ -2,6 +2,6 @@ import Layout from '../comps/layout'
 
 export default () => (
   <Layout>
-    Welcom to NWMaker Club!
+    <h1>Welcom to NWMaker Club!</h1>
   </Layout>
 )
