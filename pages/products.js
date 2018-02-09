@@ -8,10 +8,18 @@ export default () => (
   <Layout>
     <div>
       <h1>NWMaker Porduct List</h1>
-      <ul>
-        <Link href='/smd0201'><a>SMD 0201 Challenge</a></Link> {' '}
-        <Link href='/ursaminor'><a>Ursa Minor Bear</a></Link>
-      </ul>
+      <table>
+        <tr>
+          <td>
+            <Link href='/smd0201'><a>SMD 0201 Challenge</a></Link>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Link href='/ursaminor'><a>Ursa Minor Bear</a></Link>
+          </td>
+        </tr>
+      </table>
     </div>
   </Layout>
 )
