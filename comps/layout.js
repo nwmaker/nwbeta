@@ -1,5 +1,6 @@
 import Link from './Link'
 import Head from 'next/head'
+import NW from './nwmaker'
 
 export default ({ children, title = 'NWMaker Ltd.' }) => (
   <div>
