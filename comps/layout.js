@@ -55,16 +55,6 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           padding: 25px;
           font-size: 20px;
           text-align: center;
-          background: url('../static/nw.png') center no-repeat;
-          background-color: transparent;
-          background-size: 12%;
-        }
-        .nwmaker-logo {
-          color: black;
-          fill: currentColor;
-        }
-        svg {
-          fill: #ff0102;
         }
       `}</style>
       </div>
