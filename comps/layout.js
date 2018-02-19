@@ -1,6 +1,7 @@
 import Link from './Link'
 import Head from 'next/head'
-import NW from './nwmaker'
+//import NW from './nwmaker'
+import Logo from './logo'
 
 export default ({ children, title = 'NWMaker Ltd.' }) => (
   <div>
@@ -43,6 +44,7 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
 
     <footer>
       <div className='footer'>
+       <Logo />
        {'Copyright NWMaker Ltd. 2018'}
       <style jsx>{`
         .footer {
@@ -56,6 +58,13 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           background: url('../static/nw.png') center no-repeat;
           background-color: transparent;
           background-size: 12%;
+        }
+        .nwmaker-logo {
+          color: black;
+          fill: currentColor;
+        }
+        svg {
+          fill: #ff0102;
         }
       `}</style>
       </div>
