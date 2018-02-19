@@ -1,4 +1,3 @@
-//import Link from 'next/link'
 import Link from './Link'
 import Head from 'next/head'
 
@@ -49,9 +48,12 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           display: flex;
           align-item: center;
           justify-content: center;
-          line-height: 16px;
+          line-height: 30px;
           padding: 25px;
           text-align: center;
+          background: url('../static/nw.png') center no-repeat;
+          background-color: transparent;
+          background-size: 15%;
         }
       `}</style>
       </div>
