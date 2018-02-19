@@ -43,7 +43,7 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
 
     <footer>
       <div className='footer'>
-      {'NWMaker Ltd. 2018'}
+       {'Copyright NWMaker Ltd. 2018'}
       <style jsx>{`
         .footer {
           display: flex;
@@ -51,10 +51,11 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           justify-content: center;
           line-height: 30px;
           padding: 25px;
+          font-size: 20px;
           text-align: center;
           background: url('../static/nw.png') center no-repeat;
           background-color: transparent;
-          background-size: 15%;
+          background-size: 12%;
         }
       `}</style>
       </div>
