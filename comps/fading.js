@@ -1,19 +1,19 @@
 import FadeCarousel from './fade-carousel.js'
 
 const images = [
+  'smd_2_c',
   'monarch_2flying_b',
+  'ursaminor_2',
   'binary_b2',
   'snowflake_whiteall',
-  'smd_2_c',
-  'ursaminor_2'
 ]
 
 const messages = [
-  'Experience',
-  'Memory',
   'Challenge',
+  'Experience',
+  'Exploration',
+  'Memory',
   'Moment',
-  'Exploration'
 ]
 
 export default () => (
