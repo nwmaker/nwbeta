@@ -20,7 +20,7 @@ export default () => (
   <div className='fading'>
     <div className='fade-header'>
       <h1>Electronics Crafts</h1>
-      <p>Unique. Distinctive. Beautiful.</p>
+      <h2>Unique. Distinctive. Beautiful.</h2>
     </div>
     <FadeCarousel images={images} messages={messages} />
     <style jsx global>{`
@@ -28,7 +28,7 @@ export default () => (
         width: 100%;
         height: 100%;
       }
-      .fade-header h1, .fade-header p {
+      .fade-header h1, .fade-header p, .fade-header h2 {
         text-align: center;
       }
       .fade-header h1 {
@@ -36,7 +36,11 @@ export default () => (
       }
       .fade-header p {
         color: #ff0102;
-        line-height: 16px;
+        line-height: 26px;
+      }
+      .fade-header h2 {
+        color: #ff0102;
+        line-height: 20px;
       }
       .fade-carousel {
         width: 800px;

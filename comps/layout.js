@@ -1,6 +1,5 @@
 import Link from './Link'
 import Head from 'next/head'
-//import NW from './nwmaker'
 import Logo from './logo'
 
 export default ({ children, title = 'NWMaker Ltd.' }) => (
@@ -44,8 +43,12 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
 
     <footer>
       <div className='footer'>
-       <Logo />
-       {'Copyright NWMaker Ltd. 2018'}
+        <div className='footer-container'>
+          <div className='copyright'>
+            {'Copyright NWMaker Ltd. 2018'}
+          </div>
+          <a href='http://nwmaker.com'><Logo /></a>
+        </div>
       <style jsx>{`
         .footer {
           display: flex;
@@ -55,6 +58,9 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           padding: 25px;
           font-size: 20px;
           text-align: center;
+        }
+        .footer-container {
+          align-self: auto;
         }
       `}</style>
       </div>
