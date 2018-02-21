@@ -4,7 +4,9 @@ export default () => (
   <Layout>
     <div className='product-container'>
       <h1 className='product-header'>Ursa Minor Bear</h1>
-      <img className='product-image' src='../static/ursaminor/ursaminor_1on1none_800x360.png' alt='' />
+      <a href='https://www.tindie.com/products/nwmaker/ursaminor-soldering-kit/'>
+        <img className='product-image' src='../static/ursaminor/ursaminor_1on1none_800x360.png' alt='' />
+      </a>
       <style jsx>{`
         .product-container {
           width: 100%;

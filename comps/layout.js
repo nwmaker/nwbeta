@@ -12,6 +12,11 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
     <header>
       <nav>
         <style jsx>{`
+          nav {
+            background-color: #eee;
+            overflow:hidden;
+            height: 20px;
+          }
           .active:after {
             color: #f00102;
           }
