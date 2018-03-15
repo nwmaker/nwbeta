@@ -13,7 +13,7 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
       <nav>
         <style jsx>{`
           nav {
-            background-color: #eee;
+            background-color: #fff;
             overflow:hidden;
             height: 20px;
           }
@@ -26,8 +26,7 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           }
           .nav-link {
             text-decoration: none;
-            padding: 10px;
-            color: #888;
+            padding: 20px;
           }
           a {
             color: black;
