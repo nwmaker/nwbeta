@@ -4,6 +4,7 @@ export default () => (
   <Layout>
     <div className='product-container'>
       <h1 className='product-header'>SMD 0201 Challenge</h1>
+      <h2><a href='https://github.com/nwmaker/smd0201'>info</a></h2>
       <a href='https://www.tindie.com/products/nwmaker/smd-0201-soldering-challenge/'>
         <img className='product-image' src='../static/smd0201/smd_pcb.png' alt='' />
       </a>

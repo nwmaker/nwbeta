@@ -4,6 +4,7 @@ const images = [
   'smd_2_c',
   'monarch_2flying_b',
   'ursaminor_2',
+  'threebears',
   'binary_b2',
   'snowflake_whiteall',
 ]
@@ -12,6 +13,7 @@ const messages = [
   'Challenge',
   'Experience',
   'Exploration',
+  'Gift',
   'Memory',
   'Moment',
 ]

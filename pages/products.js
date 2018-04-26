@@ -11,7 +11,7 @@ export default () => (
             <Link href='/smd0201'><a>SMD 0201 Challenge</a></Link>
           </td>
           <td>
-            <a href='https://www.tindie.com/products/nwmaker/smd-0201-soldering-challenge/'>SMD-Challenge at Tindie</a>
+            <a href='https://github.com/nwmaker/smd0201'>info</a>
           </td>
         </tr>
         <tr>
@@ -19,10 +19,12 @@ export default () => (
             <Link href='/ursaminor'><a>Ursa Minor Bear</a></Link>
           </td>
           <td>
-            <a href='https://www.tindie.com/products/nwmaker/ursaminor-soldering-kit/'>UrsaMinor-Kit at Tindie</a>
+            <a href='https://github.com/nwmaker/ursaminor'>info</a>
           </td>
         </tr>
       </table>
+      
+      <h2><a href='https://www.tindie.com/stores/nwmaker/'>Buy them at Tindie</a></h2>
     </div>
   </Layout>
 )
