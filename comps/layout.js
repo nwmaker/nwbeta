@@ -36,10 +36,8 @@ export default ({ children, title = 'NWMaker Ltd.' }) => (
           <a className='home-link'>Home</a></Link> {' | '}
         <Link activeClassName='active' href='/products'>
           <a>Products</a></Link> {' | '}
-        <Link activeClassName='active' href='/blog'>
-          <a>Blog</a></Link> {' | '}
-        <Link activeClassName='active' href='/club'>
-          <a>Club</a></Link>
+        <Link activeClassName='active' href='/about'>
+          <a>About</a></Link>
       </nav>
     </header>
 
