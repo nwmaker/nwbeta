@@ -4,7 +4,7 @@ export default () => (
   <Layout>
     <div className='product-container'>
       <h1 className='product-header'>Beezy</h1>
-      <h2><a href='https://github.com/nwmaker/beezy'>info</a></h2>
+      <h2><a href='https://github.com/nwmaker/beezy'>Beezy flashes its LEDs all the time because it's busy. It pauses to display a random pattern when its antennae touch.</a></h2>
       <a href='https://www.tindie.com/products/nwmaker/beezy/'>
         <img className='product-image' src='../static/beezy/beezy1a.png' alt='' />
       </a>
