@@ -41,7 +41,7 @@ export default () => (
           <Link href='/ursaminor'>
             <a>
               <img alt='walking-ursaminors'
-                src='/static/ursaminor/ursa1s.png'/>
+                src='/static/ursaminor/ursaminor1c.png'/>
             </a>
           </Link>
           <span>Ursa Minor</span>
@@ -50,7 +50,7 @@ export default () => (
           <Link href='/smd0201'>
             <a>
               <img alt='smd0201-pcb'
-                src='/static/smd0201/smd1s.png'/>
+                src='/static/smd0201/smd0201ss.png'/>
             </a>
           </Link>
           <span>SMD 0201 Challenge</span>
