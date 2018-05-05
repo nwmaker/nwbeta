@@ -2,11 +2,10 @@ import FadeCarousel from './fade-carousel.js'
 
 const images = [
   'beezy2',
-  'smd_2_c',
+  'smd0201d_full',
   'monarch_2flying_b',
   'ursaminor_2',
-  'threebears',
-  'binary_b2',
+  'bear3ok',
   'snowflake_whiteall',
 ]
 
@@ -16,7 +15,6 @@ const messages = [
   'Experience',
   'Exploration',
   'Gift',
-  'Memory',
   'Moment',
 ]
 

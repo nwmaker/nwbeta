@@ -9,6 +9,13 @@ export default () => (
       <Row horizontal='center'>
         <h1>Electronics Crafts</h1>
       </Row>
+      <Row horizontal='center'>
+        <a href='https://www.tindie.com/stores/nwmaker/'>
+          <img alt='tindie-store' 
+               width='64' height='64'
+               src='/static/tindie-logo.png'/>
+        </a>
+      </Row>
       <Row vertical='center'>
         <Column flexGrow={1} horizontal='center'>
           <Link href='/beezy'>
@@ -48,13 +55,6 @@ export default () => (
           </Link>
           <span>SMD 0201 Challenge</span>
         </Column>
-      </Row>
-      <Row horizontal='center'>
-        <a href='https://www.tindie.com/stores/nwmaker/'>
-          <img alt='tindie-store' 
-               width='64' height='64'
-               src='/static/tindie-logo.png'/>
-        </a>
       </Row>
     </Column>
   </Layout>
