@@ -1,6 +1,6 @@
 {
   "name": "nwbeta",
-  "version": "0.1.2",
+  "version": "0.2.3",
   "description": "nwsite beta",
   "main": "index.js",
   "scripts": {
